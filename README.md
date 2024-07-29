@@ -1,3 +1,6 @@
+
+![image](https://github.com/user-attachments/assets/6f59ee5d-3860-4e02-a246-3f0265d9b090)
+
 # AXI UART Lite Echo Test
 
 ## Overview
