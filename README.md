@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a simple echo test program for the AXI UART Lite core using Vitis. The program initializes the UART Lite, performs a self-test, and then enters a loop where it echoes back any data received from the terminal. The communication parameters are set to 9600 Baud, 8 data bits, no parity. Block design source files are available under `src`.
+This repository contains a simple echo test program for the AXI UART Lite core using Vitis. The program initializes the UART Lite, performs a self-test, and then enters a loop where it echoes back any data received from the terminal. The communication parameters are set to 9600 Baud, 8 data bits, no parity. Block design source files are available under `src`. The project uses a MicroBlaze soft CPU.
 
 ## Features
 
@@ -62,6 +62,7 @@ Initializes the UART Lite and performs a self-test.
 ### `EchoData`
 
 Echoes received data back to the sender after the Enter key is pressed. It handles receiving data, checking for buffer overflow, and sending the echoed data back.
+
 
 
 ## License
